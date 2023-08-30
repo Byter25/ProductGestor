@@ -83,4 +83,11 @@ class Producto:
   def setDescripcion(self,descripcion:str): self.__desc = descripcion
   def setCantidad(self,cantidad:int): self.__cant = cantidad
   def setPrecio(self,precio:float): self.__precio = precio
-    
+  
+class Boton:
+  def __init__(self, texto:str, color:str, comando, padx:int, pady:int):
+    self.texto = texto
+    self.color = color
+    self.comando  = comando
+    self.padx = padx
+    self.pady = pady
