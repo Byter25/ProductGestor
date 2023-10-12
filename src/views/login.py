@@ -1,6 +1,6 @@
 from PIL import Image, ImageTk
 import customtkinter as ctk
-import controller as ctr
+import src.controllers.controller as ctr
 class Login():
   def __init__(self,vtn):
     # ---INICIADO DE LA APLICACION---

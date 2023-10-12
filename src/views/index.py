@@ -1,6 +1,7 @@
 import customtkinter as ctk
-import controller as ctr
-import model as m
+import src.controllers.controller as ctr
+import src.models.coneccion as m
+
 class App():
   def __init__(self,root):
     self.root = root    
